@@ -17,7 +17,7 @@ figure {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 731px;
+  height: 721px;
   width: 100vw;
   background: url(./assets/pattern-curve.svg) no-repeat bottom left/90% 70px;
   position: relative;
@@ -37,7 +37,7 @@ figure {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    height: 733px;
+    height: 750px;
     max-width: 1440px;
     margin: auto;
     background: url(/static/media/pattern-curve.ae8c0639.svg) no-repeat bottom left/54% 145px;
@@ -144,10 +144,10 @@ figure {
 .text figcaption::after {
   content: '';
   position: absolute;
-  top: -1.5rem;
+  top: -15%;
   margin: auto;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   background: url(./assets/pattern-quotes.svg) no-repeat center/contain;
 }
 

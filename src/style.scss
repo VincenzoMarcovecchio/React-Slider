@@ -10,7 +10,7 @@ figure {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 731px;
+  height: 721px;
   width: 100vw;
   background: url(./assets/pattern-curve.svg) no-repeat bottom left / 90% 70px;
   position: relative;
@@ -21,8 +21,7 @@ figure {
   @media screen and (min-width: 900px) {
     justify-content: unset;
     flex-direction: row-reverse;
-
-    height: 733px;
+    height: 750px;
     max-width: 1440px;
     margin: auto;
     background: url(/static/media/pattern-curve.ae8c0639.svg) no-repeat bottom
@@ -100,10 +99,10 @@ figure {
     &::after {
       content: '';
       position: absolute;
-      top: -1.5rem;
+      top: -15%;
       margin: auto;
-      height: 50px;
-      width: 50px;
+      height: 60px;
+      width: 60px;
       background: url(./assets/pattern-quotes.svg) no-repeat center / contain;
 
       @media screen and (min-width: 900px) {
