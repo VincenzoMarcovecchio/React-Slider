@@ -5,9 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  overflow: hidden;
-}
+
 figure {
   display: flex;
   align-items: center;
@@ -71,11 +69,12 @@ figure {
 }
 
 .text {
-  display: flex;
-  width: 300px;
+  width: 90%;
+  max-width: 352px;
 
   @media screen and (min-width: 900px) {
     width: 47.5%;
+    max-width: unset;
     position: absolute;
     left: 11%;
     top: 36%;
@@ -145,15 +144,15 @@ figure {
 }
 
 .btn {
-  width: 65px;
-  height: 32px;
+  width: 71px;
+  height: 36px;
   background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-around;
   position: absolute;
   bottom: -15px;
-  right: 39%;
+  right: 36%;
   border-radius: 20px;
   @media screen and (min-width: 900px) {
     right: 68%;
