@@ -21,7 +21,7 @@ figure {
   @media screen and (min-width: 900px) {
     justify-content: unset;
     flex-direction: row-reverse;
-    height: 750px;
+    height: 100vh;
     max-width: 1440px;
     margin: auto;
     background: url(/static/media/pattern-curve.ae8c0639.svg) no-repeat bottom
@@ -143,20 +143,20 @@ figure {
 }
 
 .btn {
-  width: 71px;
-  height: 36px;
+  width: 72px;
+  height: 36.5px;
   background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-around;
   position: absolute;
   bottom: -15px;
-  right: 36%;
+  right: calc(70% - 35%);
   border-radius: 20px;
   @media screen and (min-width: 900px) {
     right: 68%;
-    width: 81px;
-    height: 43px;
+    width: 84px;
+    height: 45px;
     bottom: -19px;
   }
   button {
